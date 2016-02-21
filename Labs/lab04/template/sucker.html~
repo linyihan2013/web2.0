@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<title>Buy Your Way to a Better Education!</title>
+		<link href={{static_url("buyagrade.css")}} type="text/css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<h1>Thanks, sucker!</h1>
+
+		<p>Your information has been recorded.</p>
+
+		<dl>
+			<dt>Name</dt>
+			<dd>{{name}}</dd>
+
+			<dt>Section</dt>
+			<dd>{{section}}</dd>
+
+			<dt>Credit Card</dt>
+			<dd>{{credit_card}}({{card}})</dd>
+		</dl>
+	</body>
+</html>  

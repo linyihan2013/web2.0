@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8">
+		<title>ASCIImation</title>
+		<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js" type="text/javascript"></script>
+		<script src="http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/5/animations.js" type="text/javascript"></script>
+		<script src="ascii.js" type="text/javascript"></script>
+		
+		<link href="ascii.css" type="text/css" rel="stylesheet" />
+		<link rel="icon" href="http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/5/stickman.gif" type="image/x-gif" />
+		
+	</head>
+
+	<body>
+		<h1>SYSU SS ASCII Animation Viewer</h1>
+		
+		<!-- your controls should go here -->
+		<div id="display">
+			<textarea id="displayarea" rows="20" cols="80"></textarea>
+		</div>
+
+		<div>
+			<fieldset>
+				<legend>Play Controls:</legend>
+				<input type="button" id="start" name="start" value="Start" />
+				<input type="button" id="stop" name="stop" value="Stop" />
+			</fieldset>
+			<fieldset>
+				<legend>Animation:</legend>
+				<select id="animation" name="animation">
+					<option selected="selected">Blank</option>
+					<option>Exercise</option>
+					<option>Juggler</option>
+					<option>Bike</option>
+					<option>Dive</option>
+					<option>Custom</option>
+				</select>
+			</fieldset>
+			<fieldset>
+				<legend>Size:</legend>
+				<label><input type="radio" id="size1" name="size" value="small" />Small</label>
+				<label><input type="radio" id="size2" name="size" value="medium" 
+				checked="checked" />Medium</label>
+				<label><input type="radio" id="size3" name="size" value="large" />Large</label>
+			</fieldset>
+			<fieldset>
+				<legend>Speed:</legend>
+				<label><input type="checkbox" id="turbo" name="turbo" />Turbo</label>
+			</fieldset>
+		</div>
+		
+		<div id="validator">
+			<a href="http://validator.w3.org/check/referer"><img src="http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/5/w3c-xhtml.png" alt="Valid XHTML 1.1" /></a>
+			<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/5/w3c-css.png" alt="Valid CSS" /></a>
+			<a href="https://webster.cs.washington.edu/jslint/?referer"><img src="http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/5/jslint.png" alt="JavaScript Lint" /></a>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,27 @@
+body {
+	background-color: #f9f9f9;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Arial, sans-serif;
+}
+
+.ui-body-f input[type="text"], .ui-body-f input[type="password"] {
+	background-color: #ccc;
+}
+
+.ui-bar-g {
+	margin-top: 20px;
+	padding: 10px 0;
+	color: #fff;
+	border-bottom: 2px solid #000;
+
+	background-color: #000;
+	background: -moz-linear-gradient(top, rgba(204,204,204,1) 0%, rgba(0,0,0,0.65) 100%); 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,
+		rgba(204,204,204,1)), color-stop(100%,rgba(0,0,0,0.65)));
+	background: -webkit-linear-gradient(top, rgba(204,204,204,1) 0%,
+		rgba(0,0,0,0.65) 100%);
+	background: -o-linear-gradient(top, rgba(204,204,204,1) 0%,rgba(0,0,0,0.65) 100%);
+	background: -ms-linear-gradient(top, rgba(204,204,204,1) 0%,rgba(0,0,0,0.65) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', 
+		endColorstr='#a6000000',GradientType=0 );
+	background: linear-gradient(top, rgba(204,204,204,1) 0%,rgba(0,0,0,0.65) 100%); 
+}
